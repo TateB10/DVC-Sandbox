@@ -1,8 +1,7 @@
 [core]
-    remote = storage2
+    remote = storage
 ['remote "storage"']
+    url = C:\Users\tateb\OneDrive\Desktop\Bast\DVC
+['remote "myremote"']
     url = gdrive://14xGi0xAEojEExLDLYzfQTZZMjNZ8bIPa
-['remote "storage1"']
-    url = ../gdrive::/14xGi0xAEojEExLDLYzfQTZZMjNZ8bIPa
-['remote "storage2"']
-    url = gdrive://14xGi0xAEojEExLDLYzfQTZZMjNZ8bIPa
+    gdrive_acknowledge_abuse = true
